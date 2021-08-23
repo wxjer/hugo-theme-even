@@ -92,11 +92,24 @@ $header-padding: 20px 20px !default;
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'zen_tokyo_zooregular';
+  src: url('../fonts/zentokyozoo/zentokyozoo-regular-webfont.eot');
+  src: url('../fonts/zentokyozoo/zentokyozoo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/zentokyozoo/zentokyozoo-regular-webfont.woff2') format('woff2'),
+       url('../fonts/zentokyozoo/zentokyozoo-regular-webfont.woff') format('woff'),
+       url('../fonts/zentokyozoo/zentokyozoo-regular-webfont.ttf') format('truetype'),
+       url('../fonts/zentokyozoo/zentokyozoo-regular-webfont.svg#zen_tokyo_zooregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 // Font size of the logo.
 $logo-font-size: 48px !default;
 
 // Font family of the logo.
-$logo-font-family: 'Chancery', cursive, LiSu, sans-serif !default;
+$logo-font-family: 'zen_tokyo_zooregular', cursive, LiSu, sans-serif !default;
 
 // Margin of menu item.
 $menu-item-margin-left: 10px !default;
