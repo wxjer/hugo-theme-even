@@ -13,14 +13,11 @@
 </div>
 
 <div class="copyright">
-  <span class="power-by">
-    {{ (printf (T "powered") `<a class="hexo-link" href="https://gohugo.io">Hugo</a>`) | safeHTML }}
-  </span>
+  <a href="https://gohugo.io"><img src="https://img.shields.io/badge/Blog-HUGO-%2330b188" title="blog by hugo"></a>
   <span class="division">|</span>
-  <span class="theme-info">
-    {{ T "theme" }} - 
-    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
-  </span>
+  <a href="https://github.com/olOwOlo/hugo-theme-even"><img src="https://img.shields.io/badge/Theme-Even-%23c26c62" title="theme by Even"></a>
+  <span class="division">|</span>
+  <a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://img.shields.io/badge/CDN-%E5%8F%88%E6%8B%8D%E4%BA%91-%230c95fa" title="本网站由又拍云提供CDN加速和云存储服务"></a>
 
   {{ if .Site.Params.busuanzi.enable -}}
   <div class="busuanzi-footer">
